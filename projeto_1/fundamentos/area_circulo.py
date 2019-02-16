@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 
-import math
+from math import pi 
 
-raio = 15.3
-
-area = math.pi*raio**2
-
-print('Área da circunferência: {}'.format(area))
+raio = input('Informe o raio: ')
+print('Área do círculo', pi * float(raio) ** 2)
